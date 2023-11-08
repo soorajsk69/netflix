@@ -1,0 +1,130 @@
+.logo img {
+    position: fixed;
+}
+.logo button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+
+    
+}
+
+.banner {
+    background-size: cover;
+    height: 448px;
+    color: white;
+
+}
+
+.content {
+    padding-top: 140px;
+    height: 190px;
+    padding-left: 15px;
+
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+}
+
+.button {
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 5px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgb(51, 51, 51, .5);
+    cursor: pointer;
+    margin-right: 1rem;
+
+
+}
+
+.button:hover {
+    color: black;
+    background-color: #e6e6e6;
+
+}
+
+.discription {
+    width: 45rem;
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size: 1rem;
+    height: 80px;
+    max-width: 500px;
+}
+
+.fade_bottom {
+    height: 7.4rem;
+    background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, .61), #111);
+}
+
+@media only screen and (max-width: 600px) {
+    /* CSS styles specific to mobile devices */
+
+    body {
+        /* Example style */
+        font-size: 14px;
+    }
+
+    .header {
+        /* Example style */
+        padding: 5px 4%;
+    }
+
+    .header-content h1 {
+        /* Example style */
+        font-size: 40px;
+    }
+
+    .text-col {
+        flex-basis: 50%;
+        text-align: center;
+    }
+
+    .features h2 {
+        /* Example style */
+        font-size: 30px;
+    }
+
+    /* Add more CSS rules for mobile devices as needed */
+    .discription {
+        width: 20rem;
+        line-height: 1rem;
+        padding-top: 1rem;
+        font-size: 1rem;
+        height: 80px;
+        max-width: 500px;
+    }
+
+    .content {
+        padding-top: 120px;
+        height: 190px;
+        padding-left: 15px;
+
+
+
+    }
+    .banner {
+        background-size: cover;
+        height: 448px;
+        color: white;
+        
+    
+    }
+
+
+}

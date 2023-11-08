@@ -1,0 +1,82 @@
+.row {
+    margin-left: 20px;
+    color: white;
+
+}
+
+.posters {
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    
+
+}
+
+.posters::-webkit-scrollbar {
+    display: none;
+}
+
+.poster {
+    max-height: 250px;
+    margin-right: 10px;
+}
+
+.movie_poster {
+    max-height: 350px;
+    cursor: pointer;
+    transition: transform 470ms;
+    object-fit: contain;
+    object-fit: contain;
+    margin: 5px;
+}
+
+.movie_poster:hover {
+    transform: scale(1.05);
+
+}
+
+.movie {
+    width: 100%;
+    object-fit: contain;
+    max-height: 200px;
+    margin: 5px;
+    cursor: pointer;
+    transition: transform 470ms;
+}
+
+.movie:hover {
+    transform: scale(1.05);
+}
+
+
+@media only screen and (max-width: 600px) {
+    /* CSS styles specific to mobile devices */
+
+    body {
+        /* Example style */
+        font-size: 14px;
+    }
+
+    .header {
+        /* Example style */
+        padding: 5px 4%;
+    }
+
+    .header-content h1 {
+        /* Example style */
+        font-size: 40px;
+    }
+
+    .text-col {
+        flex-basis: 50%;
+        text-align: center;
+    }
+
+    .features h2 {
+        /* Example style */
+        font-size: 30px;
+    }
+
+    /* Add more CSS rules for mobile devices as needed */
+}

@@ -1,0 +1,188 @@
+.body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo img{
+    height: 45px;
+    width: 167px;
+}
+.header{
+    padding: 20px 50px;
+    position: relative;
+    z-index: 10;
+}
+.wrapper{
+    background-image: url(https://th.bing.com/th/id/R.d2edb29f3f970c36aadecbb01ed0bb79?rik=z%2bAuuobpN0KNSg&riu=http%3a%2f%2fisquad.tv%2fwp-content%2fuploads%2f2018%2f08%2fNetflix-Background.jpg&ehk=Ij4PSd%2bZkTcESSlAVWoGpNmExM0fu3BgteNT6AnS9lM%3d&risl=&pid=ImgRaw&r=0);
+    height: 100vh;
+    background-image: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+}
+.login_body{
+    padding: 60px;
+    z-index: 90;
+    position: relative;
+    max-width: 450px;
+    height: 630px;
+    margin-left: 50%;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    box-sizing: border-box;
+    transform: translate(-50%);
+    position: absolute;
+    top: 500px;
+    transform: translate(-50%,-50%)
+
+
+}
+.login_body h2{
+    font-size: 45px;
+    color: white;
+    margin-top: 0;
+}
+.login_body input{
+    height: 50px;
+    width: 100%;
+    border-radius: 3px;
+    color: white;
+    background: #333;
+    border: 1px solid #333;
+    padding-left: 15px;
+    box-sizing: border-box;
+    outline: none;
+}
+.input_wrap{
+    margin-bottom: 25px;
+
+}
+.login_body button{
+ 
+  
+    letter-spacing: 0!important;
+    font: inherit;
+    overflow: visible;
+    text-transform: none;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    vertical-align: middle;
+    box-shadow: 0 1px 0 rgba(0,0,0,.55);
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    line-height: 1em;
+    min-height: 37px;
+    min-width: 98px;
+    background: #e50914;
+    max-width: 100%;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 24px 0 12px;
+    
+}
+.support{
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    font-size: 15px;
+
+}
+.remember{
+    display: flex;
+    align-items: center;
+}
+.remember span{
+    margin-right: 20px;
+    height: 45px;
+}
+
+.sing_up a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+.terms{
+    color: #737373;
+    font-size: 13px;
+}
+.terms a{
+    text-decoration: none;
+    color: blue;
+}
+
+@media only screen and (max-width: 600px) {
+    /* CSS styles specific to mobile devices */
+  
+    body {
+      /* Example style */
+      font-size: 14px;
+    }
+  
+    .header {
+      /* Example style */
+      padding: 5px 4%;
+    }
+  
+    .header-content h1 {
+      /* Example style */
+      font-size: 40%;
+    }
+ 
+    .text-col{
+        flex-basis: 50%;
+        text-align: center;
+    }
+    .features h2 {
+      /* Example style */
+      font-size: 30px;
+    }
+  
+    /* Add more CSS rules for mobile devices as needed */
+
+    .wrapper{
+        background-image: url(https://th.bing.com/th/id/R.d2edb29f3f970c36aadecbb01ed0bb79?rik=z%2bAuuobpN0KNSg&riu=http%3a%2f%2fisquad.tv%2fwp-content%2fuploads%2f2018%2f08%2fNetflix-Background.jpg&ehk=Ij4PSd%2bZkTcESSlAVWoGpNmExM0fu3BgteNT6AnS9lM%3d&risl=&pid=ImgRaw&r=0);
+        height: 50vh;
+        background-image: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        width: 100%;
+        
+    }
+    .login_body input{
+        height: 50px;
+        width: 100%;
+        border-radius: 3px;
+        color: white;
+        background: #333;
+        border: 1px solid #333;
+        padding-left: 15px;
+        box-sizing: border-box;
+        outline: none;
+    }
+    .login_body{
+        padding: 80px;
+        z-index: 90;
+        position: relative;
+        max-width: 450px;
+        height: 620px;
+        margin-left: 50%;
+        background: rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+        box-sizing: border-box;
+        transform: translate(-50%);
+        position: absolute;
+        top: 450px;
+        transform: translate(-50%,-50%)
+    
+    
+    }
+
+}
